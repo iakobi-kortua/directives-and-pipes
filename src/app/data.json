@@ -1,0 +1,25 @@
+{
+  "Users": [
+    {
+      "firstName": "giorgi",
+      "lastName": "giorgadze",
+      "about": "es giorgis shesaxeb informaciaa",
+      "birthDate": "1998",
+      "status": "Active"
+    },
+    {
+      "firstName": "saba",
+      "lastName": "iobidze",
+      "about": "es sabas shesaxeb informaciaa",
+      "birthDate": "2000",
+      "status": "Deleted"
+    },
+    {
+      "firstName": "giorgi",
+      "lastName": "ashvetia",
+      "about": "es giorgis shesaxeb informaciaa",
+      "birthDate": "2003",
+      "status": "Inactive"
+    }
+  ]
+}

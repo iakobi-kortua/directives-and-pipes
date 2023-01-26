@@ -1,0 +1,18 @@
+<div class="service" (click)="loadUsers()">
+  <button>Load User</button>
+  <p *ngIf="showLoad">loading: ...</p>
+</div>
+<p class="names-arr" *ngIf="showUser">{{ us | namesPipe }}</p>
+<div *ngIf="showUser" class="loaded-user">
+  <div
+    class="user"
+    [ngClass]="getClass(user.status)"
+    *ngFor="let user of users"
+    firstTask
+  >
+    <p>{{ user.firstName }} {{ user.lastName }}</p>
+    <p>{{ user.about }}</p>
+    <p>{{ user.birthDate | datePipe }}</p>
+    <p>{{ user.status }}</p>
+  </div>
+</div>
